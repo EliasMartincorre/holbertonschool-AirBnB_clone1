@@ -1,0 +1,35 @@
+h1 {
+    top: left;
+    font-size: 30px;
+    text-align: left;
+    margin-left: 20%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: block;
+    padding: 2rem; 
+}
+
+.container article {
+    display: inline;
+    width: 500px;
+    padding: 30px 250px 0px 0px;
+    margin : 0 0 10% 100px;
+    margin-top:;
+    background-color: aquamarine;
+    top: 40px;
+    bottom: 20px;
+    border: #FF5A5F 1px solid;
+    border-radius: 4px;
+    
+}
+
+ul.row {
+    margin-right: 50%;
+    padding: 0;
+    list-style: inside;
+}
+.col-1-3 {
+    width: 33.33%;
+    float: left;
+    padding: 0.5rem
+}
