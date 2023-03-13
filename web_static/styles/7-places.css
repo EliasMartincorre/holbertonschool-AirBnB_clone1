@@ -1,35 +1,99 @@
-h1 {
-    top: left;
-    font-size: 30px;
-    text-align: left;
-    margin-left: 20%;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    display: block;
-    padding: 2rem; 
+:root {
+    --color-primary: #d73953;
+    --color-black: #090909;
+    --color-white: #ffffff;
+    --color-light-grey: #f3f3f3;
+    --color-dark-grey: #353535;
+    --text-color: var(--color-black);
+    --font-family-base: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-family-title: Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-size-medium: 1.6rem;
+    --font-size-large: 1.8rem;
+    --font-weight-regular: 400; 
+    --section-title-margin: 0%;
+    --section-title-color: var(--color-black);
+    
+   
+    --section-tagline-margin : 0;
+    
+   
 }
 
-.container article {
-    display: inline;
-    width: 500px;
-    padding: 30px 250px 0px 0px;
-    margin : 0 0 10% 100px;
-    margin-top:;
-    background-color: aquamarine;
-    top: 40px;
-    bottom: 20px;
-    border: #FF5A5F 1px solid;
-    border-radius: 4px;
-    
+
+h2 {
+    font-size: 30px;
+    font-family: var(--font-family-title);
+    text-align: center;
+    font-weight: bold;
+    width: 50%;
+    margin-left: 20%;
+}
+h3,
+h4 {
+
+    font-family: var(--font-family-title);
+    background-color: white;
+    text-align: left;
+    font-weight: bold;
+}
+
+.section-header {
+    text-align: right;
+    padding: var(--section-header-padding);
+}
+
+.section-title {
+    font-family: var(--font-family-title);
+    font-size: var(--font-size-large);
+    font-weight: bold;
+    margin: var(--section-title-margin);
+    color: var(--section-title-color);
 }
 
 ul.row {
-    margin-right: 50%;
+    margin-left: 10%;
     padding: 0;
-    list-style: inside;
+    list-style: none;
+}
+
+.col-1-3,
+.col-1 {
+    width: 390px;
+    float: right;
+    padding: 20px 20px 0px 0px;
+    margin: 0.3rem 0px 20px 0px;
+
 }
 .col-1-3 {
-    width: 33.33%;
+    margin-left: 18%;
+}
+
+
+.col-1-2 {
+    width: 390px;
     float: left;
-    padding: 0.5rem
+    margin-left: 37%;
+
+} 
+
+.card-services .card-title {
+    margin: 0;
+    color: var(--text-color);
+    font-family: var(--font-family-base);
+    font-size: var(--font-size-medium);
+    font-weight: var(--font-weight-regular);
+}
+
+.sindecorar {
+    display: block;
+    padding: 1.5rem;
+    background-color: white; 
+    border: #ff5a5f 1px solid;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.card-title .sindecorar:hover{
+    color: var(--color-white);
+    background-color: var(--color-primary);
 }
